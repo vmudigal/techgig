@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.techgig</groupId>
+  <artifactId>codegladiators</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Code Gladiators</name>
+  <developers>
+		<developer>
+			<id>vmudigal</id>
+			<name>Vijayendra Mudigal</name>
+			<email>vijayendrap@gmail.com</email>
+			<url>http://vijayendra.mudigal.com</url>
+			<organization>Dashapramathi</organization>
+			<organizationUrl>http://www.dashapramathi.org</organizationUrl>
+			<roles>
+				<role>CEO, CTO</role>
+			</roles>
+			<timezone>+5.30</timezone>
+			<properties>
+				<picurl>http://graph.facebook.com/mudigal/picture</picurl>
+			</properties>
+		</developer>
+	</developers>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-test</artifactId>
+  		<version>4.0.0.RELEASE</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.12</version>
+  	</dependency>
+  </dependencies>
+  <build>
+		<finalName>techgig</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
